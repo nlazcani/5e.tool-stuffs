@@ -1,0 +1,224 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "yutroc",
+				"abbreviation": "Brew",
+				"color": "ff00ff",
+				"full": "yutroc",
+				"authors": [
+					"yutroc"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/nlazcani/5e.tool-stuffs",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"background": [
+		{
+			"name": "Changeling Traveler",
+			"source": "yutroc",
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"insight": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Deception}, {@skill Insight}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "Thieves’ tools"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": " A shiftweave garment (capable of shifting between five different outfits), one trinket of special significance, and a belt pouch containing 5 gp."
+						}
+					]
+				},
+				{
+					"name": "Language: Skin Cant",
+					"type": "entries",
+					"entries": [
+						"As a traveler, you have learned a secret language that allows you to silently convey messages to fellow changelings. This is an exotic language that can only be “spoken” by changelings, though members of other species can learn to understand it. Skin cant uses shifting patterns of scars, tattoos, and pigment. This allows you to convey a short message—a concept that can be expressed in six words or less—to anyone who knows the language and who can see you. Typically the message is something you maintain as part of your appearance; for example, in crafting your image, you might add a pattern of scars that tells other changeling travelers, “I need help” or “Everything I say is a lie.” You can also use this language to have a conversation typically by manifesting symbols on the palm of your hand with someone who is within 60 feet and able to see you. The shifting patterns can be noticed by other observers within 60 feet; if you wish to keep the conversation discrete, you can hide it with a Charisma (Deception) check opposed by the observer’s Wisdom (Perception or Insight) check. If you fail, it means the observer notices your shifting patterns, though they don’t understand the meaning unless they also know skin cant"
+					],
+					"data": {
+						"isFeature": false
+					}
+				},
+				{
+					"name": "Feature: The Right Face for The Job",
+					"type": "entries",
+					"entries": [
+						"Traveler clans use well-established personas to secure shelter and information wherever they go. This could be a priest who will receive sustenance at the local temple, a folk hero who will be sheltered by the common people, or a veteran soldier who can always get a bed at the local garrison. When you’re approaching a new community, work with the DM to determine if there could be a persona with roots in that place; as long as you play that role, you can usually obtain modest food and lodging and gain access to local gossip. In addition, when you encounter other members of your clan, you can ask them for help or information, provided this doesn’t place them at risk. However, this is a two-way street; if another member of your clan approaches you with a reasonable request, you’re expected to provide assistance"
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Fledgling Persona",
+					"type": "entries",
+					"entries": [
+						"Personas are important tools for traveler clans. Every clan has a set of shared personas, identities that have an established role in a particular region. But these personas need to be refreshed over time, and it’s your duty to develop a new persona that can be useful to the clan. Over the course of your adventuring career, you’re expected to establish useful connections and build a positive reputation for this identity. You can select your persona from the Personas table or roll randomly, then add details to develop them into a unique identity",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Persona"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Traveling merchant"
+								],
+								[
+									"2",
+									"Charismatic outlaw"
+								],
+								[
+									"3",
+									"Itinerant tinker"
+								],
+								[
+									"4",
+									"Wandering priest"
+								],
+								[
+									"5",
+									"Investigative reporter"
+								],
+								[
+									"6",
+									"Bounty hunter"
+								],
+								[
+									"7",
+									"Grim mercenary"
+								],
+								[
+									"8",
+									"Beloved storyteller"
+								]
+							]
+						}
+						
+					],
+					"data": {
+						"isFeature": false
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"A farmer is one of the common people, for better or for worse. Most farmers look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I love people and seek the stories of each stranger I meet."
+								],
+								[
+									"2",
+									"I embrace all beliefs, trying a new religion every few days."
+								],
+								[
+									"3",
+									"I feel obliged to humiliate arrogant and entitled people."
+								],
+								[
+									"4",
+									"Whenever I come to a new place, I collect local rumors and spread gossip"
+								],
+								[
+									"5",
+									"I thrive on change and hate standing still"
+								],
+								[
+									"6",
+									"I don’t just want to defeat my enemies; I want to make them look foolish"
+								],
+								[
+									"7",
+									"I’m always looking for weaknesses in others to exploit."
+								],
+								[
+									"8",
+									"8 I love uncovering secrets, whether arcane lore or mere gossip"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": []
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": []
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": []
+						}
+					]
+				}
+			],
+			"toolProficiencies": [
+				{
+					"thieves' tools": true
+				}
+			]
+		}
+	]
+}
